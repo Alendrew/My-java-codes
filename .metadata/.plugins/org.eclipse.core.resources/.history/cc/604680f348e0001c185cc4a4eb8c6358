@@ -1,0 +1,6 @@
+package teste;
+
+public interface Sucrilhos {
+	
+	public void calculate(Double tax);
+}

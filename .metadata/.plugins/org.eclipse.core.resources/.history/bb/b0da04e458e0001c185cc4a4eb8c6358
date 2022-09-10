@@ -1,0 +1,16 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import model.entities.Pessoa;
+
+public class Program {
+
+	public static void main(String[] args) {
+		List<Pessoa> ps1 = new ArrayList<>();
+		
+
+	}
+
+}

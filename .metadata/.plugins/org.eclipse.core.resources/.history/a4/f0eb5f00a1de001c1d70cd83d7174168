@@ -1,0 +1,8 @@
+package teste;
+
+public abstract class Teste {
+	
+	private String color;
+	
+	public abstract void calcular();
+}

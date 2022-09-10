@@ -1,0 +1,14 @@
+package teste;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Program {
+
+	public static void main(String[] args) {
+		List<String> l2 = new ArrayList<>();
+		List<PrintService> l1 = new ArrayList<>();
+		Object[] objectArray = new Integer[10];
+	}
+
+}

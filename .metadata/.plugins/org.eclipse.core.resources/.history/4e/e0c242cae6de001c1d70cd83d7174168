@@ -1,0 +1,11 @@
+package teste;
+
+public class Program {
+
+	public static void main(String[] args) {
+		PrintService<Integer>[] list1 = new PrintService<Integer>[4]();
+		PrintService<Integer> ps = new PrintService<>();
+		System.out.println(ps.getList().toString());
+	}
+
+}

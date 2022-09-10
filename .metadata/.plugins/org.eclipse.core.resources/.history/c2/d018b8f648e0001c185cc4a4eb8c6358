@@ -1,0 +1,26 @@
+package teste;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PrintService <T extends Sucrilhos> {
+	
+	T thing;
+	static Double tax = 10.00;
+	
+	public PrintService(T thing) {
+		this.thing = thing;
+	}
+
+	private List<T> list = new ArrayList<>();
+	
+	public void addValue(T value) {
+		list.add(value);
+		thing.calculate(tax);
+	}
+	
+	public List<T> getList() {
+		return list;
+	}
+
+}

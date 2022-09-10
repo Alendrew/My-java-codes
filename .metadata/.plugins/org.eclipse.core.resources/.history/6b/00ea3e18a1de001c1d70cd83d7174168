@@ -1,0 +1,11 @@
+package teste;
+
+public class Teste2 extends Teste {
+
+	@Override
+	public void calcular() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

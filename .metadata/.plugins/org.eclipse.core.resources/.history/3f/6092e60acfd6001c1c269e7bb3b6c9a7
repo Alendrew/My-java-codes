@@ -1,0 +1,28 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import entities.Animal;
+import entities.Peixe;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Animal animal1 = new Animal("Cavalo", 40.00, true);
+		Peixe p1 = new Peixe("Peixe", 15.00, true, "Ele nada");
+		Animal animal2 = p1;
+		Animal animal4 = new Peixe("Cesar", 10.00, true, "Ele nada");
+		Peixe p2 = (Peixe) animal4;
+		System.out.println(p2.getNada());
+		
+		ArrayList<Animal> animais = new ArrayList<>();
+		List<Animal> animais2 = new ArrayList<>();
+		List<Animal> animais3 = (ArrayList<Animal>)animais;
+		
+		animais.add(new Animal("Macaco",30.00,false));
+		animais2.add(new Animal("Monkey",30.00,false));
+		animais3.add(new Animal("Babuino",30.00,false));
+	}
+
+}

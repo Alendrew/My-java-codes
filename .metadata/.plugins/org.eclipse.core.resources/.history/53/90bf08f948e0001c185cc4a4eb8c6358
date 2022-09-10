@@ -1,0 +1,18 @@
+package teste;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Program {
+
+	public static void main(String[] args) {
+		List<String> a2 = new ArrayList<>();
+		String[] a1 = new String[] {};
+		String a3 = new String("Hello");
+		////////////////////////////////////
+		List<PrintService<Integer>> a4 = new ArrayList<>();
+		PrintService<Integer>[] a5;
+		
+	}
+
+}

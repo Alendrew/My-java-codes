@@ -1,0 +1,6 @@
+package model.entities;
+
+public class CalculationService {
+
+	public static <T extends Comparable<T>>
+}

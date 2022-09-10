@@ -1,0 +1,23 @@
+package teste;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PrintService <T extends Sucrilhos> {
+	
+	private List<T> list = new ArrayList<>();
+	
+	public void addValue(T value) {
+		list.add(value);
+	}
+	
+	public List<T> getList() {
+		return list;
+	}
+
+	@Override
+	public void calculate(Double tax) {
+		// TODO Auto-generated method stub
+		
+	}
+}

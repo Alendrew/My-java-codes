@@ -1,0 +1,13 @@
+package teste;
+
+import java.lang.reflect.Array;
+import java.util.List;
+
+public class Program {
+
+	public static void main(String[] args) {
+		List<Integer> myInts = Arrays.asList(5,2,10);
+		
+	}
+
+}

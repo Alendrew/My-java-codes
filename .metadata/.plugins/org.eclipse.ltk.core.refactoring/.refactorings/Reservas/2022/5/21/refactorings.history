@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;model.exceptions.Exceptions&apos; to &apos;DomainException&apos;&#x0D;&#x0A;- Original project: &apos;Reservas&apos;&#x0D;&#x0A;- Original element: &apos;model.exceptions.Exceptions&apos;&#x0D;&#x0A;- Renamed element: &apos;model.exceptions.DomainException&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Exceptions&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;model.exceptions{Exceptions.java[Exceptions" matchStrategy="1" name="DomainException" qualified="false" references="true" similarDeclarations="false" stamp="1653169961786" textual="false" version="1.0"/>
+</session>

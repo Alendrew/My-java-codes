@@ -1,0 +1,25 @@
+package teste;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PrintService <T extends Sucrilhos> {
+	
+	T thing;
+	
+	public PrintService(T thing) {
+		this.thing = thing;
+	}
+
+	private List<T> list = new ArrayList<>();
+	
+	public void addValue(T value) {
+		list.add(value);
+		thing.calculate(Double 10);
+	}
+	
+	public List<T> getList() {
+		return list;
+	}
+
+}

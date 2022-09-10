@@ -1,0 +1,11 @@
+package teste;
+
+public class Circle extends Shape {
+
+	@Override
+	public boolean itsBlue() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

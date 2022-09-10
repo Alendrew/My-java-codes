@@ -1,0 +1,16 @@
+package teste;
+
+public abstract class Teste {
+	
+	private String color;
+	
+	public abstract void calcular();
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+}

@@ -1,0 +1,17 @@
+package teste;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PrintService<Integer> {
+	
+	private List<Integer> list = new ArrayList<>();
+	
+	public void addValue(Integer value) {
+		list.add(value);
+	}
+	
+	public List<Integer> getList() {
+		return list;
+	}
+}

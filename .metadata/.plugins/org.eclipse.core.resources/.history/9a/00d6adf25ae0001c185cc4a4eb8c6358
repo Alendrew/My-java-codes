@@ -1,0 +1,28 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import model.entities.CalculationService;
+import model.entities.Pessoa;
+import model.entities.Product;
+
+public class Program {
+
+	public static void main(String[] args) {
+		List<Product> ps1 = new ArrayList<>();
+		List<Pessoa> ps2 = new ArrayList<>();
+		ps2.add(new Product("TV",1000.00));
+		ps2.add(new Product("MOUSE",2000.00));
+		ps2.add(new Product("KEYBOARD",500.00));
+		ps1.add(new Product("TV",1000.00));
+		ps1.add(new Product("MOUSE",2000.00));
+		ps1.add(new Product("KEYBOARD",500.00));
+		System.out.println(CalculationService.max(ps1));
+		System.out.println(CalculationService.max());
+		
+		
+
+	}
+
+}

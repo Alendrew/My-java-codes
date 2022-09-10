@@ -1,0 +1,21 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import model.entities.Product;
+
+public class Program {
+
+	public static void main(String[] args) {
+		List<Product> ps1 = new ArrayList<>();
+		ps1.add(new Product("TV",1000.00));
+		ps1.add(new Product("MOUSE",2000.00));
+		ps1.add(new Product("KEYBOARD",500.00));
+		System.out.println(ps1.);
+		
+		
+
+	}
+
+}
